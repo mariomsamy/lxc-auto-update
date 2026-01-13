@@ -56,7 +56,7 @@ Supported Linux distributions inside LXCs:
 Run this **on the Proxmox VE host** as `root`:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/mariomsamy/lxc-auto-update/main/scripts/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/mariomsamy/Proxmox-VE-LXC-Update-Scripts-Automation/main/scripts/install.sh | bash
 ```
 
 ### What the installer does
@@ -191,7 +191,7 @@ journalctl -u lxc-auto-update.service --no-pager -n 200
 To completely remove the updater:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/mariomsamy/lxc-auto-update/main/scripts/uninstall.sh | bash
+curl -fsSL https://raw.githubusercontent.com/mariomsamy/Proxmox-VE-LXC-Update-Scripts-Automation/main/scripts/uninstall.sh | bash
 ```
 
 ### What uninstall does

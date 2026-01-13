@@ -1,0 +1,7 @@
+[Unit]
+Description=Proxmox VE LXC Auto Update (running containers only)
+After=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/sbin/lxc-auto-update.sh

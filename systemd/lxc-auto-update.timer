@@ -1,3 +1,6 @@
+[Unit]
+Description=Run Proxmox VE LXC Auto Update daily at 06:30
+
 [Timer]
 OnCalendar=*-*-* 06:30:00
 Persistent=true
